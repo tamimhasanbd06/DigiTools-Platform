@@ -1,3 +1,4 @@
+import Footer from './Components/Footer'
 import './App.css'
 import Banner from './Components/Banner'
 import Navbar from './Components/Navbar'
@@ -17,6 +18,7 @@ function App() {
       <StaticCardSection/>
       <PlaneCards/>
       <Transform/>
+      <Footer/>
     </>
   )
 }
