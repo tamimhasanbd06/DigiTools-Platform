@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ cartItems }) => {
   return (
     <div className="sticky top-0 z-50 bg-white shadow-sm">
 
@@ -59,7 +59,7 @@ const Navbar = () => {
             </svg>
 
             <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-[10px] px-1.5 rounded-full">
-              8
+              {cartItems.length}
             </span>
           </div>
 
