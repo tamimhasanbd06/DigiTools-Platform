@@ -5,7 +5,7 @@ import Banner from './Components/Banner';
 import Navbar from './Components/Navbar';
 import PlaneCards from './Components/PlaneCards';
 import Price from './Components/Price';
-import ProductCardSection from './Components/ProductCardSection';
+import ProductCardSection from './Components/productCardSection';
 import StaticCardSection from './Components/StaticCardSection';
 import Transform from './Components/Transform';
 import { ToastContainer } from 'react-toastify';
